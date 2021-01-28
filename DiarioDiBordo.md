@@ -1,3 +1,4 @@
 DIARIO DI BORDO
 ===============
-**bold**
+
+~~non abbiamo mai fatto una sega di nulla~~
