@@ -2,11 +2,13 @@ DIARIO DI BORDO
 ===============
 
 **21/01/2021**
-  * Scelta dei motori
-  * Progettazione con disegno
-  * Divisione in parti
-  * Assegnazione ipotetica delle misure
+  * Scelta del numero dei motori
+  * Visione di progetti on-line
+  * Inizio progettazione
   
 **28/01/2021**
+  * Fine progettazione con disegno su carta
+  * Divisione in parti
+  * Assegnazione delle misure
   
   
