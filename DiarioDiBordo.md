@@ -1,4 +1,12 @@
 DIARIO DI BORDO
 ===============
 
-non abbiamo mai fatto una ~~sega~~ di nulla
+**21/01/2021**
+  * Scelta dei motori
+  * Progettazione con disegno
+  * Divisione in parti
+  * Assegnazione ipotetica delle misure
+  
+**28/01/2021**
+  
+  
