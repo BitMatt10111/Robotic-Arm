@@ -28,15 +28,15 @@ void setup()
 } 
 
 void loop() {
-  potValue0 = analogRead(Pin0);
-  potValue1 = analogRead(Pin1);
-  potValue2 = analogRead(Pin2);
+  potValue0 = analogRead(pot0);
+  potValue1 = analogRead(pot1);
+  potValue2 = analogRead(pot2);
   
-  pos0 = map(potValue, 0, 1023, 0, 180);
-  pos1 = map(potValue, 0, 1023, 0, 180);
-  pos2 = map(potValue, 0, 1023, 0, 180);
+  pos0 = map(potValue0, 0, 1023, 0, 180);
+  pos1 = map(potValue1, 0, 1023, 0, 180);
+  pos2 = map(potValue2, 0, 1023, 0, 180);
   Servo0.write(pos0);  
   Servo1.write(pos1);  
   Servo2.write(pos2);
-  delay(30);
+  delay(10);
 }
