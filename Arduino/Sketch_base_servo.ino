@@ -1,3 +1,5 @@
+//Sketch Braccio Robotico ToBeBoy
+
 #include <Servo.h> 
 
 Servo Servo0;
@@ -18,6 +20,9 @@ int outputValue2 = 0;    // Valore mappato del potenziometro
 
 void setup() 
 {
+  pinMode(pot0,INPUT);
+  pinMode(pot1,INPUT);
+  pinMode(pot2,INPUT);
   Servo0.attach(9);   
   Servo1.attach(10);   
   Servo2.attach(11);   
@@ -38,5 +43,5 @@ void loop() {
   Servo0.write(pos0);  
   Servo1.write(pos1);  
   Servo2.write(pos2);
-  delay(10);
+  delay(30);
 }
